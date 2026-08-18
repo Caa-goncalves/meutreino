@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#17131d">
+<meta name="description" content="Aplicativo pessoal de treino — 100% offline, sem contas, sem anúncios.">
+
+<title>Meu Treino</title>
+
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Meu Treino">
+<link rel="icon" href="./icons/icon-192.png">
+
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div id="app">
+  <div class="screen" style="padding-top:40vh;text-align:center;color:var(--text-faint)">Carregando…</div>
+</div>
+
+<nav class="bottom-nav" id="bottom-nav">
+  <div class="bottom-nav-inner">
+    <a href="#/" class="nav-btn" data-nav="home"><span class="icon">🏠</span>Treinos</a>
+    <a href="#/historico" class="nav-btn" data-nav="history"><span class="icon">📊</span>Histórico</a>
+    <a href="#/config" class="nav-btn" data-nav="settings"><span class="icon">⚙️</span>Ajustes</a>
+  </div>
+</nav>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
